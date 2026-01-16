@@ -1,0 +1,14 @@
+[ req ]
+prompt = no
+distinguished_name = dn
+req_extensions = ext
+
+[ dn ]
+CN = www.server_residenza.it
+emailAddress = protocollo@server_residenza.it
+O = server
+L = Roma
+C = IT
+
+[ ext ]
+subjectAltName = DNS:www.server_residenza.com,DNS:server_residenza.com,DNS:*.server_residenza.com

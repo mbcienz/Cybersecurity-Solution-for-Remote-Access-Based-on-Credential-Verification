@@ -1,0 +1,14 @@
+[ req ]
+prompt = no
+distinguished_name = dn
+req_extensions = ext
+
+[ dn ]
+CN = www.arc.it
+emailAddress = protocollo@arc.it
+O = arc
+L = Roma
+C = IT
+
+[ ext ]
+subjectAltName = DNS:www.arc.com,DNS:arc.com,DNS:*.arc.com

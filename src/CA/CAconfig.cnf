@@ -1,0 +1,59 @@
+[ ca ]
+default_ca = CA_default
+
+[ CA_default ]
+dir             = ./CA	                # Where everything is kept
+new_certs_dir   = $dir/newcerts         # default place for new certs
+database        = $dir/index.txt        # database index file.
+serial          = $dir/serial           # The current serial number
+
+private_key     = $dir/private/ecdsa_key.pem # The private key
+certificate     = $dir/cacert.pem       # The CA certificate (aggiungi questa linea)
+default_md      = sha256
+
+x509_extensions = usr_cert
+
+# Default policy
+policy          = policy_match
+
+[ policy_match ]
+countryName             = match
+stateOrProvinceName     = optional
+organizationName        = optional
+organizationalUnitName  = optional
+commonName              = supplied
+emailAddress            = optional
+
+[ policy_anything ]
+countryName             = optional
+stateOrProvinceName     = optional
+localityName            = optional
+organizationName        = optional
+organizationalUnitName  = optional
+commonName              = supplied
+emailAddress            = optional
+
+
+[req]
+
+prompt = no
+
+distinguished_name = dn
+
+req_extensions = ext
+
+[dn]
+
+CN = www.ipzs.it
+
+emailAddress = protocollo@ipzs.it
+
+O = IPZS
+
+L = Roma
+
+C = IT
+
+[ext]
+
+subjectAltName = DNS:www.ipzs.com,DNS:ipzs.com,DNS:*.ipzs.com

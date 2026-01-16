@@ -1,0 +1,40 @@
+Certificate:
+    Data:
+        Version: 1 (0x0)
+        Serial Number:
+            5e:96:74:33:e5:8f:a3:fe:1f:a5:93:79:47:ef:1b:07:e9:a2:e1:7a
+        Signature Algorithm: ecdsa-with-SHA256
+        Issuer: CN = www.ipzs.it, emailAddress = protocollo@ipzs.it, O = IPZS, L = Roma, C = IT
+        Validity
+            Not Before: Jul  8 16:12:24 2024 GMT
+            Not After : Jul  8 16:12:24 2025 GMT
+        Subject: CN = www.ipzs.it, emailAddress = protocollo@ipzs.it, O = IPZS, L = Roma, C = IT
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:46:ae:f4:3f:a0:1c:e3:5f:97:52:ba:f7:ef:c8:
+                    41:08:ca:68:e4:49:eb:d0:fa:1a:65:69:31:d6:fe:
+                    a3:d6:45:bc:52:6f:e9:3c:30:da:8d:1b:c0:5e:99:
+                    9e:dd:cb:81:9d:98:b5:6c:13:ca:eb:a0:de:31:e6:
+                    73:56:ab:a4:a7
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+    Signature Algorithm: ecdsa-with-SHA256
+    Signature Value:
+        30:44:02:20:72:1c:a5:5f:97:bd:3b:0d:fa:fb:de:79:13:c8:
+        9f:70:33:3d:79:2d:d0:bb:3f:a8:fc:ad:c8:d2:2d:11:11:ef:
+        02:20:3b:d6:a5:dc:3b:a6:08:8a:2b:c9:6c:32:e6:04:91:ca:
+        01:e4:03:16:64:f0:3e:60:f7:8f:d5:9c:c7:89:1b:8c
+-----BEGIN CERTIFICATE-----
+MIIBwjCCAWkCFF6WdDPlj6P+H6WTeUfvGwfpouF6MAoGCCqGSM49BAMCMGQxFDAS
+BgNVBAMMC3d3dy5pcHpzLml0MSEwHwYJKoZIhvcNAQkBFhJwcm90b2NvbGxvQGlw
+enMuaXQxDTALBgNVBAoMBElQWlMxDTALBgNVBAcMBFJvbWExCzAJBgNVBAYTAklU
+MB4XDTI0MDcwODE2MTIyNFoXDTI1MDcwODE2MTIyNFowZDEUMBIGA1UEAwwLd3d3
+LmlwenMuaXQxITAfBgkqhkiG9w0BCQEWEnByb3RvY29sbG9AaXB6cy5pdDENMAsG
+A1UECgwESVBaUzENMAsGA1UEBwwEUm9tYTELMAkGA1UEBhMCSVQwWTATBgcqhkjO
+PQIBBggqhkjOPQMBBwNCAARGrvQ/oBzjX5dSuvfvyEEIymjkSevQ+hplaTHW/qPW
+RbxSb+k8MNqNG8BemZ7dy4GdmLVsE8rroN4x5nNWq6SnMAoGCCqGSM49BAMCA0cA
+MEQCIHIcpV+XvTsN+vveeRPIn3AzPXkt0Ls/qPytyNItERHvAiA71qXcO6YIiivJ
+bDLmBJHKAeQDFmTwPmD3j9Wcx4kbjA==
+-----END CERTIFICATE-----

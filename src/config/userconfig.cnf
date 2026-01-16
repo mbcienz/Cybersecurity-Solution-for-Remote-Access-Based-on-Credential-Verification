@@ -1,0 +1,26 @@
+[ req ]
+prompt = no
+distinguished_name = dn
+req_extensions = ext
+
+[ dn ]
+CN = www.cie.it
+emailAddress = protocollo@cie.it
+O = CIE
+L = Roma
+C = IT
+
+[ ext ]
+subjectAltName = DNS:www.cie.com,DNS:cie.com,DNS:*.cie.com
+
+# Estensioni specifiche per i campi della CIE
+1.2.3.4.1 = ASN1:UTF8String:NOME=Mario
+1.2.3.4.2 = ASN1:UTF8String:COGNOME=Rossi
+1.2.3.4.3 = ASN1:UTF8String:SESSO=M
+1.2.3.4.4 = ASN1:UTF8String:DATA_NASCITA=01/01/1980
+1.2.3.4.5 = ASN1:UTF8String:LUOGO_NASCITA=RM
+1.2.3.4.6 = ASN1:UTF8String:STATURA=180
+1.2.3.4.7 = ASN1:UTF8String:DATA_EMISSIONE=30/01/2024
+1.2.3.4.8 = ASN1:UTF8String:CITTADINANZA=ITA
+1.2.3.4.9 = ASN1:UTF8String:SCADENZA=01/01/2034
+1.2.3.4.10 = ASN1:UTF8String:SERIALE=RU65839UJ
